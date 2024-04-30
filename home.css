@@ -32,12 +32,6 @@ header div{
     justify-content: center;
 }
 
-input{
-    width: 70%;
-    padding-left: 10px;
-    height: 50px;
-}
-
 main{
     height: 100vh;
     display: flex;
@@ -49,12 +43,14 @@ main{
 .usuario{
     position: absolute;
     height: 220px;
-    width: 480px;
+    width: 500px;
     margin-right: 700px;
     flex-wrap: wrap;
-    margin-bottom: 320px;
+    margin-bottom: 260px;
     border-radius: 16%;
     padding: 16px;
+    border: none;
+    background-color: transparent;
 }
 
 .ia{
@@ -64,6 +60,6 @@ main{
     width: 460px;
     border-radius: 16%;
     margin-left: 720px;
-    margin-bottom: 330px;
+    margin-bottom: 260px;
     flex-wrap: wrap;
 }
